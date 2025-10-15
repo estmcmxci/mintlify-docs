@@ -1,23 +1,23 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "ENS Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#007C23",
+    "light": "#007C23",
+    "dark": "#007C23"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/ens.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
+              "constitution",
               "development"
             ]
           },
@@ -71,14 +71,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "ENS Documentation",
+          "href": "https://docs.ens.domains",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "ENS Blog",
+          "href": "https://blog.ens.domains",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "ENS Forum",
+          "href": "https://discuss.ens.domains",
+          "icon": "comments"
         }
       ]
     }
@@ -90,14 +95,22 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "ENS App",
+        "href": "https://app.ens.domains"
+      },
+      {
+        "label": "Governance",
+        "href": "https://dao.ens.gregskril.com"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/ens"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Register .eth",
+      "href": "https://app.ens.domains"
     }
   },
   "contextual": {
@@ -114,9 +127,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "x": "https://x.com/ensdomains",
+      "github": "https://github.com/ensdomains",
+      "discord": "https://discord.gg/ens"
+    },
+    "text": "Built with ❤️ by the ENS community"
   }
 }

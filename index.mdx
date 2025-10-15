@@ -1,97 +1,98 @@
 ---
-title: "Dorn"
-description: "Welcome to the new home for your documentation"
+title: "About ENS"
+description: "Everything you need to know about ENS"
 ---
 
-## Setting up
+## Ethereum Name Service
 
-Get your documentation site up and running in minutes.
+Ethereum Name Service (ENS) is a decentralized protocol that provides human-readable names for Ethereum addresses and other resources, simplifying interactions across the Ethereum ecosystem. ENS names (e.g., alice.eth) are ERC-721 NFTs, serving as domains, wallet aliases, and digital identities.
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+ENS is governed by the ENS DAO, which is responsible for protocol upgrades, treasury management, and resource allocation in line with the DAO’s constitution and objectives. The DAO operates through open governance, with proposals and votes determining major decisions. Day-to-day matters are managed by elected Stewards, organized into working groups such as Meta-Governance, ENS Ecosystem, and Public Goods.
 
-## Make it yours
+ENS’s mission is to foster a secure, user-friendly, and censorship-resistant naming system for web3, while empowering the community to shape its future through transparent, decentralized governance.
 
-Design a docs site that looks great and empowers your users.
+**Key points:**
 
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
+- ENS names are NFTs, domains, and digital identities.
+- The ENS DAO governs protocol upgrades, treasury, and resource allocation.
+- Stewards and working groups manage operations and community initiatives.
+- ENS aims to be the foundational naming layer for Ethereum and web3.
+
+
+## Types of ENS names
+
+There are two main types of ENS names:
+
+1. **.eth names:** These are native ENS names registered directly on the Ethereum blockchain. They are ERC-721 NFTs, fully decentralized, and managed entirely on-chain.
+2. **DNS names:** These are traditional DNS domain names (such as .com, .xyz, or .org) that can be imported and integrated with ENS. This integration allows DNS names to benefit from many ENS features, such as associating Ethereum addresses and other resources, while still being managed through the DNS system.
+
+
+## Use Cases
+
+There are three main use cases for ENS names today, each corresponding to a different capability of your Ethereum account:
+
+1. **Human-readable name for your Ethereum account:** ENS replaces long, complex Ethereum addresses (like 0x4cbe...) with simple, memorable names (like alice.eth), making it easier to send and receive assets or interact with dApps.
+2. **Censorship-resistant domain name:** ENS names can serve as decentralized domain names, providing a censorship-resistant alternative to traditional DNS. These domains are managed on-chain, making them globally accessible and immune to centralized control.
+3. **Portable web3 username:** ENS names act as digital identities across the web3 ecosystem. You can use your ENS name to log in, verify your identity, or link to social profiles, websites, and more—making it your onchain calling card.
+
+
+## Human-readable Names
+
+The easiest way to understand ENS names is by comparing them to the Domain Name System (DNS).
+
+1. DNS translates human-readable domain names (like google.com) into machine-readable IP addresses (like 142.250.217.78). This makes the internet much more user-friendly, as people don’t have to remember long strings of numbers to visit websites.
+2. ENS (Ethereum Name Service) brings this same concept to web3. It maps human-readable names (like nick.eth) to Ethereum addresses (like 0xb8c2c29ee19d8307cb7255e1cd9cbde883a267d5). This makes sending crypto, logging in, or verifying identity much simpler and more accessible.
+
+Just as DNS unlocked the internet for everyone, ENS is making web3 more approachable by replacing complex addresses with simple names.
+
+<img src="/images/sending.png" alt="Sending crypto with ENS" />
+
+## Why Human-readable Names Matter 
+
+Having a human-readable name for your Ethereum account is important for both usability and security. Your Ethereum account acts as a wallet that can store cryptocurrency tokens and NFTs.
+
+It’s much easier and safer for someone to send you cryptocurrency or transfer an NFT if you provide them with a simple, memorable name (like eminem.eth) instead of a long, complex hexadecimal address (like 0x5d752C35789BDfD1287971972091bA47aFD3ac93). This reduces the risk of errors and makes interacting with Ethereum more user-friendly.
+
+## Censorship-resistant Domain Names
+
+a .eth name, registered through the Ethereum Name Service (ENS), can be used as a domain name to host a website on the Ethereum blockchain. This makes your website censorship-resistant, as it is not controlled by any central authority.
+
+- **Native Support:** Some browsers, like Brave, allow you to type a .eth name directly (e.g., vitalik.eth) and resolve it to a website, as long as the ENS name has a content hash set.
+- **Universal Access:** If your browser doesn’t natively support .eth domains, you can use gateway services like eth.limo or eth.link. Just add .limo or .link to the end of any .eth domain (e.g., vitalik.eth.limo) to access the site in any browser.
+
+*"Try visiting vitalik.eth.limo in any browser to see the blog of Vitalik Buterin, founder of Ethereum."*
+
+<img src="/images/vitalik.eth.png" alt="Vitalik Buterin's website" />
+
+
+## Portable Web3 Username
+
+
+In web3, your Ethereum wallet acts as your account for digital identity. Unlike traditional digital identities (like email or Facebook accounts), your Ethereum account is portable and can be used across many apps and services.
+
+- **Single Sign-On:** You can use your Ethereum wallet (and your ENS name, if you have one) to log into websites and apps, similar to how you use a username and password elsewhere.
+- **Sign In With Ethereum (SIWE):** This is a standard that lets you authenticate yourself using your Ethereum account. For example, you can log in with your ENS name using Sign In With Ethereum (SIWE).
+
+*"This means your ENS name becomes your portable, censorship-resistant username for the decentralized web."*
+
+
+
+
+## Additional Resources
+
+<CardGroup cols={2}>
+  <Card title="ENS DAO Constitution" icon="scroll" href="https://docs.ens.domains/constitution">
+    Read the official ENS DAO Constitution
   </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
+  <Card title="ENS Governance" icon="vote" href="https://snapshot.org/#/ens.eth">
+    Participate in ENS governance decisions
   </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+</CardGroup>
 
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+<div style={{ marginTop: '2rem', padding: '1rem', backgroundColor: '#f8f9fa', borderRadius: '8px', border: '1px solid #e9ecef' }}>
+  <p style={{ margin: '0', fontSize: '0.9rem', color: '#6c757d' }}>
+    <strong>Last updated:</strong> October 2025 | 
+    <strong>Version:</strong> 1.0 | 
+    <strong>ENS Forum:</strong> <a href="https://discord.gg/ens" style={{ color: '#16A34A' }}>Join the Discussion </a>
+  </p>
+</div>
