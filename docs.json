@@ -1,4 +1,8 @@
 {
+  "banner": {
+    "content": "EP 7.1 is live! Go [vote](https://dao.ens.gregskril.com)!",
+    "dismissible": true
+  },
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "ENS Documentation",
@@ -16,53 +20,30 @@
           {
             "group": "Getting Started",
             "pages": [
-              "index",
-              "constitution",
-              "development"
+              "getting started/welcome",
+              "getting started/index",
+              "getting started/$ENS Token",
+              "getting started/constitution",
+              "getting started/foundation",
+              "getting started/endowment",
+              "getting started/security council"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Voting",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "voting/voting",
+              "voting/delegating",
+              "voting/proposals"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Working Groups",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "working groups/working groups",
+              "working groups/meta-governance",
+              "working groups/ecosystem",
+              "working groups/public goods"
             ]
           }
         ]
@@ -95,8 +76,8 @@
   "navbar": {
     "links": [
       {
-        "label": "ENS App",
-        "href": "https://app.ens.domains"
+        "label": "ENS Domains",
+        "href": "https://ens.domains"
       },
       {
         "label": "Governance",
@@ -104,7 +85,7 @@
       },
       {
         "label": "Discord",
-        "href": "https://discord.gg/ens"
+        "href": "https://discord.com/invite/NvHJGUR"
       }
     ],
     "primary": {
@@ -112,18 +93,6 @@
       "label": "Register .eth",
       "href": "https://app.ens.domains"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
@@ -134,3 +103,5 @@
     "text": "Built with ❤️ by the ENS community"
   }
 }
+
+
